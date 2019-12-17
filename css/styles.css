@@ -11,8 +11,8 @@ body {
 /** HEADER **/
 #header-nav {
   background-color: navy;
-  border-radius: 0;
-  border: 0;
+  border-radius: 100;
+  border: 100;
   box-shadow: 0 0 50px #0f5900;
 }
 
@@ -107,7 +107,7 @@ body {
     padding: 30px;
 }*/
 
-#anupam, #aditaya, #ravi, #suraj, #aman, #deepak, #rishu, #shrikant, #rohit, #rudra, #nitish, #manish, #malay, #anubhav, #amit, #dilpreet, #mukul {
+#anupam, #aditaya, #ravi, #suraj, #aman, #deepak, #rishu, #shrikant, #rohit, #rudra, #nitish, #manish, #malay, #anubhav, #amit, #dilpreet, #mukul, #surya, #demo, #choubey, #ujjwal, #himansu {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -115,7 +115,7 @@ body {
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#anupam:hover, #aditaya:hover, #ravi:hover, #aman:hover,#deepak:hover, #shrikant:hover, #rishu:hover,#suraj:hover, #rohit:hover, #rudra:hover, #manish:hover,#nitish:hover, #malay:hover, #anubhav:hover,#amit:hover, #dilpreet:hover, #mukul:hover {
+#anupam:hover, #aditaya:hover, #ravi:hover, #aman:hover,#deepak:hover, #shrikant:hover, #rishu:hover,#suraj:hover, #rohit:hover, #rudra:hover, #manish:hover,#nitish:hover, #malay:hover, #anubhav:hover,#amit:hover, #dilpreet:hover, #mukul:hover, #surya:hover, #ujjwal:hover, #demo:hover, #choubey:hover,#himansu:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #anupam {
@@ -211,8 +211,34 @@ body {
   background-size: 400px 350px;
 }
 
+#surya {
+  background: url('../images/surya.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+#ujjwal {
+  background: url('../images/ujjwal.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
 
-#anupam span, #aditaya span, #ravi span, #suraj span, #aman span, #deepak span, #rishu span, #shrikant span, #akash span, #rohit span, #rudra span, #nitish span, #manish span, #malay span, #anubhav span, #dilpreet span, #amit span, #mukul span {
+#demo {
+  background: url('../images/demo.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+#choubey {
+  background: url('../images/choubey.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+#himansu {
+  background: url('../images/himansu.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+
+#anupam span, #aditaya span, #ravi span, #suraj span, #aman span, #deepak span, #rishu span, #shrikant span, #akash span, #rohit span, #rudra span, #nitish span, #manish span, #malay span, #anubhav span, #dilpreet span, #amit span, #mukul span, #choubey span, #demo span, #ujjwal span, #surya span, #himansu span {
   position: absolute;
   bottom: 0;
   right: 0;
