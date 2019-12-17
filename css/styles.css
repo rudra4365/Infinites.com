@@ -8,6 +8,8 @@ body {
 }
 
 
+
+
 @media (min-width: 768px) and (max-width: 991px) {
    .navbar-brand img{
     display: none;
@@ -119,7 +121,7 @@ body {
     padding: 30px;
 }*/
 
-#anupam, #aditaya, #ravi, #suraj, #aman, #deepak, #rishu, #shrikant, #rohit, #rudra, #nitish, #manish, #malay, #anubhav, #amit, #dilpreet, #mukul, #surya, #demo, #choubey, #ujjwal, #himansu {
+#p1,#p2,#p3,#anupam, #aditaya, #ravi, #suraj, #aman, #deepak, #rishu, #shrikant, #rohit, #rudra, #nitish, #manish, #malay, #anubhav, #amit, #dilpreet, #mukul, #surya, #demo, #choubey, #ujjwal, #himansu {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -246,6 +248,22 @@ body {
 }
 #himansu {
   background: url('../images/himansu.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+
+#p1 {
+  background: url('../images/1.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+#p2 {
+  background: url('../images/2.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+#p3 {
+  background: url('../images/3.JPG') no-repeat;
   background-position: center;
   background-size: 400px 350px;
 }
