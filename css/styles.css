@@ -17,7 +17,7 @@ body {
 }
 
 #logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
+ 
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -81,6 +81,103 @@ body {
 }
 /* END HEADER */
 
+/** HOME PAGE **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 40px;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+/*#main-section p {
+    background-color: #99ee99;
+    box-shadow: 0 0 50px #0f5900;
+    padding: 30px;
+}*/
+
+#anupam, #aditaya, #ravi, #suraj, #aman, #deepak, #rishu, #shrikant {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#anupam:hover, #aditaya:hover, #ravi:hover, #aman:hover,#deepak:hover, #shrikant:hover, #rishu:hover  {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#anupam {
+  background: url('../images/anupam.jpg') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+#aditaya {
+  background: url('../images/aditaya.jpg') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+
+#ravi {
+  background: url('../images/ravi.jpg') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+#suraj {
+  background: url('../images/suraj.jpg') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+
+#aman {
+  background: url('../images/aman.jpg') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+#deepak {
+  background: url('../images/deepak.jpg') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+
+#rishu {
+  background: url('../images/rishu.jpg') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+#shrikant {
+  background: url('../images/shrikant.jpg') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+
+
+#anupam span, #aditaya span, #ravi span, #suraj span, #aman span, #deepak span, #rishu span, #shrikant span, #akash span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+/** END HOME PAGE **/
+
 /** FOOTER **/
 .panel-footer {
   box-shadow: 0 0 50px #0f5900;
@@ -115,6 +212,8 @@ body {
 /* END FOOTER */
 
 
+
+
 @media (max-width: 374px) {
   /* Header */
   .navbar-brand {
@@ -125,11 +224,11 @@ body {
     padding-top: 10px;
     font-size: 5vw; 
   }
-  .navbar-brand p { /* Kosher cert */
+  .navbar-brand p { 
     font-size: .6em;
     margin-top: 12px;
   }
-  .navbar-brand p img { /* Star-K */
+  .navbar-brand p img { 
     height: 60px;
     width: 100px;
   }
@@ -142,35 +241,6 @@ body {
 
 
 
-/** HOME PAGE **/
-
-#main-content {
-    width: 92%;
-    margin-bottom: 40px;
-}
-
-#main-content h2 {
-    font-size: 2.9em;
-    font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-
-#main-content h3 {
-    font-size: 1.6em;
-    font-weight: bold;
-    margin-bottom: 1em;
-}
-
-#main-section p {
-    background-color: #82d06b;
-    box-shadow: 0 0 50px #0f5900;
-    padding: 30px;
-}
-
-
-
-/** END HOME PAGE **/
 
 
 
