@@ -107,7 +107,7 @@ body {
     padding: 30px;
 }*/
 
-#anupam, #aditaya, #ravi, #suraj, #aman, #deepak, #rishu, #shrikant {
+#anupam, #aditaya, #ravi, #suraj, #aman, #deepak, #rishu, #shrikant, #rohit, #rudra, #nitish, #manish, #malay, #anubhav, #amit, #dilpreet, #mukul {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -115,7 +115,7 @@ body {
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#anupam:hover, #aditaya:hover, #ravi:hover, #aman:hover,#deepak:hover, #shrikant:hover, #rishu:hover  {
+#anupam:hover, #aditaya:hover, #ravi:hover, #aman:hover,#deepak:hover, #shrikant:hover, #rishu:hover,#suraj:hover, #rohit:hover, #rudra:hover, #manish:hover,#nitish:hover, #malay:hover, #anubhav:hover,#amit:hover, #dilpreet:hover, #mukul:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #anupam {
@@ -162,8 +162,57 @@ body {
   background-size: 400px 350px;
 }
 
+#rohit {
+  background: url('../images/rohit.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+#rudra {
+  background: url('../images/rudra.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
 
-#anupam span, #aditaya span, #ravi span, #suraj span, #aman span, #deepak span, #rishu span, #shrikant span, #akash span {
+#nitish {
+  background: url('../images/nitish.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+#manish {
+  background: url('../images/manish.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+
+#malay {
+  background: url('../images/malay.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+#anubhav {
+  background: url('../images/anubhav.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+
+#dilpreet {
+  background: url('../images/dilpreet.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+#amit {
+  background: url('../images/amit.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+#mukul {
+  background: url('../images/mukul.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+
+
+#anupam span, #aditaya span, #ravi span, #suraj span, #aman span, #deepak span, #rishu span, #shrikant span, #akash span, #rohit span, #rudra span, #nitish span, #manish span, #malay span, #anubhav span, #dilpreet span, #amit span, #mukul span {
   position: absolute;
   bottom: 0;
   right: 0;
