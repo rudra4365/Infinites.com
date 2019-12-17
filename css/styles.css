@@ -26,7 +26,7 @@ body {
 .navbar-brand {
   padding-top: 25px;
 }
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { 
   font-family: 'Lora', serif;
   color: #90ee90;
   font-size: 1.5em;
@@ -40,13 +40,13 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* Kosher cert */
+.navbar-brand p { 
   color: #000;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
 }
-.navbar-brand p span { /* Star-K */
+.navbar-brand p span { 
   vertical-align: middle;
   font-family: fantasy;
   font-style: italic;
@@ -70,15 +70,7 @@ body {
 #phone {
   margin-top: 5px;
 }
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
-}
+
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
@@ -88,6 +80,40 @@ body {
   margin-top: 85px;
 }
 /* END HEADER */
+
+/** FOOTER **/
+.panel-footer {
+  box-shadow: 0 0 50px #0f5900;
+  color: #99ee99;
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: navy;
+  border-top: 0;
+
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#alumnus, #address {
+  line-height: 2;
+}
+#alumnus > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
+
 
 @media (max-width: 374px) {
   /* Header */
@@ -145,3 +171,7 @@ body {
 
 
 /** END HOME PAGE **/
+
+
+
+
