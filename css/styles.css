@@ -8,6 +8,21 @@ body {
 }
 
 
+/* About */
+
+.about-p p{
+  font-family: cursive;
+  font-style: italic;
+  font-size: 25px;
+  color: white;
+}
+
+.email span, .email a{
+  font-size: 21px;
+  font-weight: bold;
+  color: green;
+}
+
 .button {
   background-color: black;
   border: none;
@@ -153,7 +168,7 @@ body {
     padding: 30px;
 }*/
 
-#anupam, #aditaya, #ravi, #suraj, #aman, #deepak, #rishu, #shrikant, #rohit, #rudra, #nitish, #manish, #malay, #anubhav, #amit, #dilpreet, #mukul, #surya, #demo, #choubey, #ujjwal, #himansu {
+#about-img,#anupam, #aditaya, #ravi, #suraj, #aman, #deepak, #rishu, #shrikant, #rohit, #rudra, #nitish, #manish, #malay, #anubhav, #amit, #dilpreet, #mukul, #surya, #demo, #choubey, #ujjwal, #himansu {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -162,7 +177,7 @@ body {
   overflow: hidden;
 }
 
-#p1,#p2,#p3{
+#p1,#p2,#p3,#about-img{
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -309,6 +324,12 @@ body {
   background-size: 400px 350px;
 }
 
+#about-img {
+  background: url('../images/5.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+
 
 
 
@@ -393,7 +414,4 @@ body {
     visibility: hidden;
    }
   }
-
-
-
 
