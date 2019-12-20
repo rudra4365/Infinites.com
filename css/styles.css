@@ -168,7 +168,7 @@ body {
     padding: 30px;
 }*/
 
-#about-img,#anupam, #aditaya, #ravi, #suraj, #aman, #deepak, #rishu, #shrikant, #rohit, #rudra, #nitish, #manish, #malay, #anubhav, #amit, #dilpreet, #mukul, #surya, #demo, #choubey, #ujjwal, #himansu {
+#about-img,#anupam, #aditaya, #ravi, #suraj, #aman, #deepak,#akash, #rishu, #shrikant, #rohit, #rudra, #nitish, #manish, #malay, #anubhav, #amit, #dilpreet, #mukul, #surya, #demo, #choubey, #ujjwal, #himansu {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -190,7 +190,7 @@ body {
 }
 
 
-#anupam:hover, #aditaya:hover, #ravi:hover, #aman:hover,#deepak:hover, #shrikant:hover, #rishu:hover,#suraj:hover, #rohit:hover, #rudra:hover, #manish:hover,#nitish:hover, #malay:hover, #anubhav:hover,#amit:hover, #dilpreet:hover, #mukul:hover, #surya:hover, #ujjwal:hover, #demo:hover, #choubey:hover,#himansu:hover {
+#anupam:hover, #akash:hover, #aditaya:hover, #ravi:hover, #aman:hover,#deepak:hover, #shrikant:hover, #rishu:hover,#suraj:hover, #rohit:hover, #rudra:hover, #manish:hover,#nitish:hover, #malay:hover, #anubhav:hover,#amit:hover, #dilpreet:hover, #mukul:hover, #surya:hover, #ujjwal:hover, #demo:hover, #choubey:hover,#himansu:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #anupam {
@@ -233,6 +233,12 @@ body {
 }
 #shrikant {
   background: url('../images/shrikant.JPG') no-repeat;
+  background-position: center;
+  background-size: 400px 350px;
+}
+
+#akash {
+  background: url('../images/akash.JPG') no-repeat;
   background-position: center;
   background-size: 400px 350px;
 }
@@ -333,7 +339,7 @@ body {
 
 
 
-#anupam span, #aditaya span, #ravi span, #suraj span, #aman span, #deepak span, #rishu span, #shrikant span, #akash span, #rohit span, #rudra span, #nitish span, #manish span, #malay span, #anubhav span, #dilpreet span, #amit span, #mukul span, #choubey span, #demo span, #ujjwal span, #surya span, #himansu span {
+#anupam span, #aditaya span, #ravi span,#akash span, #suraj span, #aman span, #deepak span, #rishu span, #shrikant span, #akash span, #rohit span, #rudra span, #nitish span, #manish span, #malay span, #anubhav span, #dilpreet span, #amit span, #mukul span, #choubey span, #demo span, #ujjwal span, #surya span, #himansu span {
   position: absolute;
   bottom: 0;
   right: 0;
